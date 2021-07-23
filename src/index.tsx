@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Profile from './components/profile/profile.component';
-import Experience from './components/experiences/experiences.component'
+import Home from './containers/home'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Profile />
-    <Experience />
+    <Home></Home>
   </React.StrictMode>,
   document.getElementById('root')
 );
